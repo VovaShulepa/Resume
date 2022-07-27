@@ -1,0 +1,323 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* main */
+
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #FFFFFF;
+  width: 1200px;
+  margin: 0 auto;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 5px 4px rgba(39, 48, 14, 0.13);
+}
+
+.main-content {
+  padding: 105px 90px 90px;
+  width: 640px;
+}
+
+.main:hover {
+  transition: 700ms;
+  background: #fffef9;
+  box-shadow: 25px 35px 35px 5px rgba(65, 71, 53, 0.534);
+}
+
+/* about */
+
+.about {
+  margin-bottom: 70px;
+}
+
+.about-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+
+.vova {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.vova:hover {
+  transition: 500ms;
+  color: #365300c5;
+  font-size: 46px;
+  line-height: 55px;
+}
+
+.about-discription {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 40px;
+  width: 500px;
+}
+
+/* Title */
+
+.title {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+/* Projects */
+
+.projects {
+  margin-bottom: 45px;
+}
+
+.projects-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.projects-item {
+  font-weight: bold;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.project,
+.project-link {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #595959;
+}
+
+.project-link {
+  margin-left: 10px;
+}
+
+.project-link:hover {
+  font-size: 15px;
+  transition: 500ms;
+  color: #004792;
+  font-weight: 700;
+}
+
+
+.project-bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* Works */
+.position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.organozation {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+
+.work {
+  margin-top: 80px;
+}
+
+.title-work {
+  margin-bottom: 30px;
+}
+
+.work-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.education {
+  margin-top: 75px;
+}
+
+.odesa {
+  font-weight: bold;
+}
+
+/* Sidebar  background-color: #1e2939;  */
+
+.sidebar {
+  background-color: #0C2340;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 370px;
+  border-radius: 15px;
+}
+
+/* Photo */
+
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+  border-radius: 7px;
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin-left: 40px;
+}
+
+.sidebar-title {
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 17px;
+}
+
+/* CONTACTS */
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.contact-link {
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  color: #15f4ee;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.franik {
+  font-size: 20px;
+}
+
+.contact-link:hover {
+  transition: 500ms;
+  font-size: 17.2px;
+  transition: 400ms;
+  font-weight: 600;
+  color: #7DF9FF;
+
+}
+
+.links {
+  margin-bottom: 20px;
+  padding-top: 14px;
+  padding-left: 0;
+}
+
+/* GIT HUB LINKEDIN LOGOS */
+
+.li-links {
+  list-style: none;
+  display: inline-block;
+  padding-right: 16px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.logo-git:hover {
+  transition: 300ms;
+  box-shadow: 3px 4px 2px 1px hsla(65, 79%, 94%, 0.918);
+  border-radius: 10px;
+  width: 38px;
+}
+
+.tech-skills-list {
+  color: #FFFFFF;
+  padding: 0;
+  margin-bottom: 44px;
+  line-height: 24px;
+}
+
+.tech-skills-text {
+  margin-left: 10px;
+}
+
+.tech-skills-item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-left: 0;
+}
+
+.logo-skills {
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* List */
+
+.soft-skills-list {
+  margin: 5px;
+  padding: 0;
+  color: rgb(156, 196, 11);
+}
+
+.soft-skills-text {
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+
+.soft-skills-item {
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.lang {
+  font-size: 14px;
+  color: rgb(156, 196, 11);
+}
