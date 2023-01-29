@@ -42,21 +42,14 @@ body {
   margin-bottom: 20px;
 }
 
-.vova {
+.name-title {
   font-style: normal;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
 }
 
-.vova:hover {
-  transition: 500ms;
-  color: #365300c5;
-  font-size: 46px;
-  line-height: 55px;
-}
-
-.about-discription {
+.about-description {
   font-weight: normal;
   font-style: normal;
   font-size: 15px;
@@ -73,6 +66,10 @@ body {
   font-size: 25px;
   line-height: 27px;
   margin-bottom: 20px;
+}
+
+.education-odesa {
+  margin-top: 30px;
 }
 
 /* Projects */
@@ -97,23 +94,35 @@ body {
 .project-link {
   font-weight: normal;
   font-style: normal;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 25px;
-  text-decoration: none;
-  color: #595959;
+  color: #004792;
 }
 
 .project-link {
   margin-left: 10px;
+  font-weight: 600;
 }
 
 .project-link:hover {
-  font-size: 15px;
   transition: 500ms;
-  color: #004792;
-  font-weight: 700;
+  color: #927c00;
 }
 
+.git {
+  margin-right: 10px;
+}
+
+.projects-item {
+  margin-top: 10px;
+}
+
+
+.project-description {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
 
 .project-bracket {
   font-style: normal;
@@ -133,12 +142,13 @@ body {
   margin-bottom: 10px;
 }
 
-.organozation {
+.organization {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
+  margin: 0;
 }
 
 .period {
@@ -177,6 +187,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  margin-top: 0;
 }
 
 .education {
@@ -187,6 +198,10 @@ body {
   font-weight: bold;
 }
 
+.education-state {
+  margin: 0px 0 5px;
+}
+
 /* Sidebar  background-color: #1e2939;  */
 
 .sidebar {
@@ -194,22 +209,24 @@ body {
   padding-top: 40px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 370px;
+  width: 320px;
   border-radius: 15px;
 }
 
 /* Photo */
 
 .photo {
-  width: 370px;
+  display: block;
+  width: 300px;
+  margin: 0 auto;
   margin-bottom: 50px;
-  border-radius: 7px;
+  border-radius: 25px 0 25px 0;
 }
 
 .contacts,
 .tech-skills,
 .soft-skills {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .sidebar-title {
@@ -218,9 +235,16 @@ body {
   font-weight: bold;
   font-size: 25px;
   line-height: 17px;
+  margin: 0;
+  margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 /* CONTACTS */
+
+.mob-number {
+  margin-top: 27px;
+}
 
 .logo {
   display: flex;
@@ -231,29 +255,27 @@ body {
   font-style: normal;
   font-size: 17px;
   line-height: 24px;
-  color: #15f4ee;
+  color: #FFFFFF;
   text-decoration: none;
   display: flex;
   align-items: center;
   margin-left: 15px;
+  transition: 500ms;
 }
+
+.contact-link:hover {
+  color: #7DF9FF;
+}
+
 
 .franik {
   font-size: 20px;
 }
 
-.contact-link:hover {
-  transition: 500ms;
-  font-size: 17.2px;
-  transition: 400ms;
-  font-weight: 600;
-  color: #7DF9FF;
 
-}
 
 .links {
-  margin-bottom: 20px;
-  padding-top: 14px;
+  margin-bottom: 15px;
   padding-left: 0;
 }
 
@@ -267,11 +289,16 @@ body {
   margin-top: 10px;
 }
 
-.logo-git:hover {
+.logo-git {
   transition: 300ms;
-  box-shadow: 3px 4px 2px 1px hsla(65, 79%, 94%, 0.918);
   border-radius: 10px;
   width: 38px;
+}
+
+.logo-git:hover {
+  box-shadow: 0 0 3px 4px hsla(214, 100%, 72%, 0.918);
+  border-radius: 10px;
+  transform: scale(1.15);
 }
 
 .tech-skills-list {
@@ -294,12 +321,17 @@ body {
 }
 
 .logo-skills {
+
   padding-right: 15px;
   display: flex;
   align-items: center;
 }
 
 /* List */
+
+.soft-skills {
+  margin-top: 20px;
+}
 
 .soft-skills-list {
   margin: 5px;
